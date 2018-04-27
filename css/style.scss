@@ -1,0 +1,101 @@
+ul{ padding: 0;
+    margin: auto 0;
+li{
+    display: inline;
+    padding-left: 5px;
+    &::before{
+        content: '';
+        display: block;
+        width: 1px;
+        position: absolute;
+        left: 34.7%;
+        top: 17px;
+        height: 20px;
+        background: #888;
+
+
+    }
+}
+    .a3{
+        padding-left: 5px;
+    }
+}
+.navbar{
+    height: 50px;
+    background: #333;
+}
+.header{
+    height: 151px;
+}
+a{
+    font-family: 'Poppins', sans-serif;
+font-weight: 400;    
+    color: #888;
+    font-size: 12px;
+    text-decoration: none;
+    border: none;
+    transition: all .5s ease;
+    &:hover{
+        color: gold;
+        text-decoration: none;
+    }
+}
+.fa-map-marker-alt{
+    position: absolute;
+    font-size: 16px;
+    left: 14%;
+    top: 18px;
+    color: gold;
+
+}
+.fa-phone{
+    padding: 0 0 0 24px;
+    transform: rotate(90deg);
+    position: relative;
+    top: -10px;
+    left: 10px;
+    font-size: 18px;
+    color: gold;
+
+}
+.rightdiv{
+    float: right;
+}
+.fab{
+    color: #888;
+    padding-right: 7px;
+    transition: all .5s ease;
+    cursor: pointer;
+    &:hover{
+        color: gold;
+    }
+}
+.container{
+    padding-right: 0;
+}
+
+.carousel{
+    height: 493px;
+}
+.carousel img{
+    object-fit: cover;
+    height: 595px;
+}
+.move{
+padding-bottom: 170px;    
+}
+.move button{
+    padding: 12px 25px;
+    border: 1px solid gold;
+    background: gold;
+    color: white;
+    margin-top: 50px;
+}
+.move h1{
+    font-size: 70px;
+}
+.move p{ 
+    font-size: 18px;
+    margin-top: 30px;
+
+}
